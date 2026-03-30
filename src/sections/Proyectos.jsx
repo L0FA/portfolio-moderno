@@ -21,8 +21,8 @@ title: "Portfolio Moderno",
 
     image:"/projects/Portfolio.png",
     tags: ["React", "Vite", "TailwindCSS", "Node.JS", "JavaScript", "Diseño Responsive"],
-    link: "#",
-    github: "#"
+    link: "https://portfolioslf.com",
+    github: "https://github.com/L0FA/portfolio-moderno"
 
 },
 
