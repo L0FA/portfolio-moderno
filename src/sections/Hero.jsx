@@ -48,7 +48,7 @@ const [particles] = useState(() =>
     {/* Fondo */}
     <div className="absolute inset-0"> 
         <img
-         src="/Fondo2.jpg"
+         src="/Fondo.jpg"
          alt="Fondo Hero"
          className="w-full h-full object-cover opacity-40"
          
@@ -120,14 +120,18 @@ const [particles] = useState(() =>
 
             {/* Calls To Action / CTA´S */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+                <a href="#Contacto">
                 <Button size="lg">
                 Contactame!
                 <ArrowRight className="w-5 h-5" />
                 </Button>
+                </a>
+                <a href="/CV_SLF.pdf" download>
                <AnimatedBorderButton>
                 <Download className="w-5 h-5"/>
                     Descargar CV
                 </AnimatedBorderButton>
+                </a>
         </div>
 
         {/* Redes Sociales */}
@@ -160,7 +164,7 @@ const [particles] = useState(() =>
                 <div 
                 className="relative glass rounded-3xl p-2 glow-border">
                     <img 
-                    src="/Perfil2.jpeg" 
+                    src="/Perfil.jpeg" 
                     alt="Santiago Lopez Fabbri"
                     className="w-full aspect-4/5 object-cover rounded-2xl"
                     />

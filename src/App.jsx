@@ -5,7 +5,7 @@ import { Proyectos } from "./sections/Proyectos.jsx"
 import { Experiencia } from "./sections/Experiencia.jsx"
 import { Testimonios } from "./sections/Testimonios.jsx"
 import { Contacto } from "./sections/Contacto.jsx"
-
+import { Footer } from "./layout/Footer.jsx";
 function App () {
   return <div className="min-h-screen overflow-x-hidden">
     <Navbar />
@@ -17,6 +17,7 @@ function App () {
 <Testimonios />
 <Contacto />
 </main>
+<Footer />
   </div>
 }
 

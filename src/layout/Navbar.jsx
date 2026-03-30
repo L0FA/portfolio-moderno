@@ -60,7 +60,9 @@ export const Navbar = () => {
                 {/* Botón Call To Action */}
 
                 <div className="hidden md:block">
+                    <a href="#Contacto">
                     <Button size="sm"> Interesado? Contactame! </Button>
+                    </a>
                 </div>
 
             {/* Hamburguesa para Telefonos / Botón de Menu para Telefonos */}
@@ -86,7 +88,9 @@ export const Navbar = () => {
                         </a>
                 ))}
 
+                <a href="#Contacto">
                 <Button> Interesado? Contactame! </Button>
+                </a>
             </div>
             </div>
             )}
