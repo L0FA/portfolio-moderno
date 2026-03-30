@@ -86,7 +86,7 @@ una navegación intuitiva y una buena experiencia de usuario.
   <li>React.js</li>
   <li>Vite</li>
   <li>JavaScript (ES6+)</li>
-  <li>CSS3 / Tailwind (si aplica)</li>
+  <li>CSS3 / TailwindCSS </li>
 </ul>
 
 <hr>
