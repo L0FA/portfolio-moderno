@@ -1,8 +1,8 @@
 import { Github, Linkedin } from "lucide-react";
 
 const socialLinks = [
-                {icon: Github, href:"https://github.com/L0FA"},
-                {icon: Linkedin, href:"https://www.linkedin.com/in/santiago-lopez-fabbri/"},
+                {icon: Github, href:"https://github.com/L0FA", label: "GitHub"},
+                {icon: Linkedin, href:"https://www.linkedin.com/in/santiago-lopez-fabbri/", label: "LinkedIn"},
             ]
 
 const FooterLinks = [
@@ -26,14 +26,14 @@ return (
 <a href="#" className="text-xl font-bold tracking-tight">
 SLF<span className="text-primary">.</span>
 </a>
-<p classname="text-sm text-muted-foreground mt-2">
+<p className="text-sm text-muted-foreground mt-2">
 {Año} Santiago Lopez Fabbri. Todos los Derechos Reservados.
 </p>
 </div>
 
 {/* Links */}
 <nav className="flex flex-wrap justify-center gap-6">
-{Footer.Links.map((link) => ( 
+{FooterLinks.map((link) => ( 
 <a
 key={link.href}
 href={link.href}

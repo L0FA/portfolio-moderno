@@ -6,28 +6,28 @@ const testimonios = [
         quote: "Santiago se destacó por su organización y precisión en la gestión de nuestra documentación y bases de datos. Su capacidad para sistematizar información y mantener todo actualizado nos facilitó mucho el trabajo diario.",
         author: "Adriana J. Kirzner",
         role: "Adm. Mabresama",
-        avatar: ""
+        avatar: "#"
     },
 
     {
         quote: "Santiago hizo un trabajo excepcional organizando nuestros mapas globales y creando sucursales de manera eficiente usando la API de Google Maps. Su conocimiento técnico y autonomía hicieron que los procesos que antes eran lentos se agilizaran significativamente.",
         author: "Magalí Gonzalez",
         role: "Atom Protect",
-        avatar: ""
+        avatar: "#"
     },
 
     {
         quote: "Con Santiago siempre tuvimos la tranquilidad de que los datos estaban correctos y accesibles. Su atención al detalle y rapidez en la gestión de información hicieron que nuestro equipo trabajara de forma más eficiente.",
         author: "Alejandra Kirzner",
         role: "Adm. Mabresama",
-        avatar: ""
+        avatar: "#"
     },
     
     {
         quote: "Trabajar con Santiago fue una experiencia excelente. Supo entender nuestras necesidades desde el primer momento y transformar nuestras ideas en un sitio funcional y moderno. Su conocimiento técnico y su capacidad para organizar la información hicieron que todo el proyecto se realizara de forma rápida y eficiente.",
         author: "Pablo Guillermo Lopez",
         role: "Cliente",
-        avatar: ""
+        avatar: "#"
     },
 ]
 
@@ -119,14 +119,15 @@ export const Testimonios = () => {
 
                     <div className="flex gap-2">
                         {testimonios.map((_, idx) => (
-                    <button 
-                    onClick={() => setActiveIdx(idx)}
-                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                        idx === activeIdx ? "w-8 bg-primary"
-                         : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
-                    }`} 
-                    />
-                    ))}
+  <button 
+    key={idx}
+    onClick={() => setActiveIdx(idx)}
+    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+      idx === activeIdx ? "w-8 bg-primary" : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
+    }`} 
+  />
+))}
+
                     </div>
 
                     <button className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all" onClick={next}>
