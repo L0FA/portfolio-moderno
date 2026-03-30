@@ -229,7 +229,7 @@ export const Contacto = () => {
                                         <div className="text-sm text-muted-foreground">
                                             {item.label}
                                         </div>
-                                        <div className="font-medium break-words">{item.value}</div>
+                                        <div className="font-medium wrap-break-word">{item.value}</div>
                                     </div>
                             </a>
                         )}
