@@ -1,16 +1,137 @@
-# React + Vite
+<h1>🎨 Portfolio Moderno</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+Portfolio personal desarrollado con <strong>React + Vite</strong>, enfocado en presentar mis proyectos,
+habilidades y experiencia como desarrollador web de forma moderna, interactiva y visualmente atractiva.
+</p>
 
-Currently, two official plugins are available:
+<hr>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🚀 Descripción</h2>
 
-## React Compiler
+<p>
+Este proyecto representa mi identidad como desarrollador, combinando diseño, animaciones y estructura modular
+para crear una experiencia fluida y profesional.
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p>
+El objetivo principal es no solo mostrar proyectos, sino transmitir una estética clara,
+una navegación intuitiva y una buena experiencia de usuario.
+</p>
 
-## Expanding the ESLint configuration
+<hr>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h2>✨ Características</h2>
+
+<ul>
+  <li>🎯 Diseño moderno y minimalista</li>
+  <li>📱 Responsive (adaptado a distintos dispositivos)</li>
+  <li>⚡ Animaciones y micro-interacciones</li>
+  <li>🧩 Arquitectura basada en componentes</li>
+  <li>🧭 Navegación por secciones (scroll dinámico)</li>
+</ul>
+
+<hr>
+
+<h2>🏗️ Estructura del Proyecto</h2>
+
+<pre>
+📁 portfolio-moderno
+│
+├── 📁 public
+│   ├── 📁 projects        → Imágenes de proyectos
+│   │   ├── Portfolio.png
+│   │   └── Booking.png
+│   │
+│   ├── Fondo.jpeg
+│   ├── Fondo2.jpeg
+│   ├── Perfil.jpeg
+│   ├── Perfil2.jpeg
+│   └── Vite.svg
+│
+├── 📁 src
+│   ├── 📁 assets
+│   │   └── react.svg
+│   │
+│   ├── 📁 components      → Componentes reutilizables
+│   │   ├── AnimatedBorderButton.jsx
+│   │   └── Button.jsx
+│   │
+│   ├── 📁 layout          → Estructura general
+│   │   └── Navbar.jsx
+│   │
+│   ├── 📁 sections        → Secciones principales del portfolio
+│   │   ├── Hero.jsx
+│   │   ├── Acerca_De.jsx
+│   │   ├── Experiencia.jsx
+│   │   ├── Proyectos.jsx
+│   │   ├── Testimonios.jsx
+│   │   └── Contacto.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── vite.config.js
+├── eslint.config.js
+└── package.json
+</pre>
+
+<hr>
+
+<h2>🛠️ Tecnologías</h2>
+
+<ul>
+  <li>React.js</li>
+  <li>Vite</li>
+  <li>JavaScript (ES6+)</li>
+  <li>CSS3 / TailwindCSS </li>
+</ul>
+
+<hr>
+
+<h2>⚙️ Cómo ejecutar el proyecto</h2>
+
+<p>Seguí estos pasos para correr el proyecto en tu entorno local:</p>
+
+<h3>1. Clonar el repositorio</h3>
+<pre>git clone https://github.com/L0FA/portfolio-moderno.git</pre>
+
+<h3>2. Instalar dependencias</h3>
+<pre>
+cd portfolio-moderno
+npm install
+</pre>
+
+<h3>3. Ejecutar el proyecto</h3>
+<pre>npm run dev</pre>
+
+<p>Luego abrí el navegador en la URL indicada (generalmente <code>http://localhost:5173</code>).</p>
+
+<hr>
+
+<h2>🌐 Demo</h2>
+
+<p>
+👉 <a href="https://portfolioslf.com"><strong>Ver Portfolio</strong></a>
+</p>
+
+<hr>
+
+<h2>🎯 Objetivo del Proyecto</h2>
+
+<p>
+Construir un portfolio que no solo muestre proyectos,
+sino que también refleje mi enfoque como desarrollador:
+<strong>crear experiencias, no solo interfaces</strong>.
+</p>
+
+<hr>
+
+<h2>👤 Autor</h2>
+
+<p>
+<strong>Santiago López Fabbri</strong><br>
+💻 Desarrollador Web Full Stack
+</p>
