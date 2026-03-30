@@ -27,7 +27,7 @@ title: "Portfolio Moderno",
 },
 
 {
-title: "Aplicación de Hotelería / Bookin",
+title: "Aplicación de Hotelería / Booking",
 
 description: `Aplicación web de gestión y reserva de alojamientos desarrollada 
 como proyecto full stack, enfocada en simular el funcionamiento de plataformas 
